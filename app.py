@@ -37,7 +37,7 @@ def read_file(file_path):
         return file.read()
 
 def prompt_gpt4(instructions, prompt, model="gpt-4-1106-preview", max_tokens=200):
-    openai.api_key = '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'
+    openai.api_key = os.environ.get('OPENAI_API')
 
     # Load previously asked questions
     with open('asked_questions.txt', 'r', encoding='utf-8') as file:
