@@ -224,8 +224,6 @@ PyJWT==2.8.0
 pylibsrtp==0.10.0
 PyMatting==1.1.11
 pymediainfo==6.1.0
-pyobjc==10.2
-pyobjc-core==10.2
 pyobjc-framework-Accessibility==10.2
 pyobjc-framework-Accounts==10.2
 pyobjc-framework-AddressBook==10.2
